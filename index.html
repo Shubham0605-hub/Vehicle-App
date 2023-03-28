@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="./assets/functionality.js" type="module"></script>
+<body>
+    <div class="main">
+        <div class="nav">
+            <span>
+                <img src="./assets/logo.png" alt="car logo" class="logo">
+            </span>
+            <span class="title">Vehicle Dashboard</span>
+        </div>
+        <div class="details">
+            <h3>Vehicle Details</h3>
+            <div class="detail-grid">
+                <span class="vehicleType"></span>
+                <span class="model"></span>
+                <span class="chassis"></span>
+                <span class="plate"></span>
+                <span class="driver"></span>
+            </div>
+        </div>
+        <div class="map">
+            <iframe class="mapFrame" src="" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="status">
+            <h3>Running status</h3>
+            <div class="status-grid">
+                <span class="speed"></span>
+                <span class="direction"></span>
+                <span class="mileage"></span>
+            </div>
+        </div>
+        <div class="list">
+            <span class="search-box">
+                <input type="text" placeholder="Search.." class="searchBar" data-search>
+            </span>
+        </div>
+    </div> 
+</body>
+</html>
